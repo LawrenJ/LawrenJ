@@ -1,0 +1,23 @@
+Healing,Heals the caster 10 points per second. One of the two basic spells.,12 per second
+Lesser Ward,Increases armor rating by 40 points and negates up to 40 points of spell damage or effects.,34 per second
+Fast Healing,Heals the caster 50 points.,73
+Healing Hands,"Heals the target 10 points per second, but not undead, atronachs, or machines.",25 per second
+Necromantic Healing DG,"Heals the undead target 10 points per second, but not the living, atronachs or machines",37
+Steadfast Ward,"Increases armor rating by 60 points, and negates up to 60 points of spell damage or effects.",58 per second
+Sun Fire DG,Ball of sunlight that does 25 points of damage to undead,24
+Turn Lesser Undead,Undead up to level 6 flee for 30s.,84
+Close Wounds,Heals the caster 100 points.,126
+Greater Ward,"Increases armor rating by 80 points, and negates up to 80 points of spell damage or effects.",86 per second
+Heal Other,"Heals the target 75 points. Does not affect undead, atronachs, or machines.",80
+Heal Undead DG,"Heals the undead target 75 points, but not the living, atronachs or machines",115
+Poison Rune DR,Targets that fail to resist take 3 points of poison damage per second for 30 seconds.,146
+Repel Lesser Undead,All affected undead up to level 8 flee for 30s.,115
+Stendarr's Aura DG,"For 60 seconds, undead in melee range take 10 points sun damage per second",248
+Turn Undead,Undead up to level 13 flee for 30s.,168
+Vampire's Bane DG,Sunlight explosion that does 40 points of damage in a 15-foot radius to undead,72
+Circle of Protection,Undead up to level 20 entering the circle will flee.,171
+Grand Healing,"Heals everyone close to the caster 200 points. Does not affect atronachs, machines or undead.",254
+Repel Undead,All affected undead up to level 16 flee for 30s.,353
+Turn Greater Undead,Undead up to level 21 flee for 30s.,267
+Bane of the Undead,Sets undead up to level 30 on fire and makes them flee for 30s.,988
+Guardian Circle,Undead up to level 35 entering the circle will flee. Caster heals 20 health per second inside it.,716

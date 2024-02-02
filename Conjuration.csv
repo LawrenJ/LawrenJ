@@ -1,0 +1,32 @@
+Bound Dagger DR,Creates a magic dagger for 120 seconds. Sheathe it to dispel.,32
+Bound Sword,Creates a magic sword for 120 seconds. Sheathe it to dispel.,93
+Conjure Familiar,Summons a familiar for 60 seconds wherever the caster is pointing.,107
+Raise Zombie,Reanimate a weak dead body to fight for the player for 60 seconds.,103
+Summon Unbound Dremora,Summons an unbound Dremora.,100
+Bound Battleaxe,Creates a magic battle axe for 120 seconds. Sheathe it to dispel.,169
+Conjure Boneman DG,Summons a Boneman archer for 60 seconds wherever the caster is pointing.,129
+Conjure Flame Atronach,Summons a Flame Atronach for 60 seconds wherever the caster is pointing.,150
+Flaming Familiar,Summons a Flaming Familiar which will charge into battle and explode.,57
+Reanimate Corpse,Reanimate a more powerful dead body to fight for the player for 60 seconds.,144
+Soul Trap,"If a target dies within 60 seconds, fills a soul gem.",107
+Spectral Arrow (Bound Bow),"Fires a Spectral Arrow at the target doing 30 points of damage and staggering the target (shot from Bound Bow, but can be obtained alone with console commands).",0
+Summon Arniel's Shade,Summons the Shade of Arniel Gane for 60 seconds wherever the caster is pointing.,0
+Summon Arvak DG,Summons the horse Arvak wherever the caster is pointing.,136
+Banish Daedra,Weaker summoned Daedra are sent back to Oblivion.,196
+Bound Bow,Creates a magic bow for 120 seconds. Sheathe it to dispel.,207
+Conjure Ash Spawn DR,Summons an Ash Spawn for 60 seconds wherever the caster is pointing:.,186
+Conjure Frost Atronach,Summons a Frost Atronach for 60 seconds wherever the caster is pointing.,215
+Conjure Mistman DG,Summons a Mistman from the Soul Cairn for 60 seconds wherever the caster is pointing.,193
+Conjure Seeker DR,Summons a Seeker for 60 seconds wherever the caster is pointing.,157
+Revenant,Reanimate a powerful dead body to fight for the player for 60 seconds.,183
+Conjure Ash Guardian DR,"Creates an Ash Guardian that guards that location until destroyed. Consumes a heart stone from your inventory, without which it will be hostile.",207
+Command Daedra,Powerful summoned and raised creatures are put under the player's control.,243
+Conjure Dremora Lord,Summons a Dremora Lord for 60 seconds.,358
+Conjure Wrathman DG,Summons a Wrathman from the Soul Cairn for 60 seconds wherever the caster is pointing.,301
+Conjure Storm Atronach,Summons a Storm Atronach for 60 seconds wherever the caster is pointing.,322
+Dread Zombie,Reanimate a very powerful dead body to fight for the player for 60 seconds.,302
+Expel Daedra,Powerful summoned daedra creatures are sent back to Oblivion.,215
+Dead Thrall,Reanimate a dead body permanently to fight for the player.,1000
+Flame Thrall,Summons a Flame Atronach permanently.,900
+Frost Thrall,Summons a Frost Atronach permanently.,1100
+Storm Thrall,Summons a Storm Atronach permanently.,1200

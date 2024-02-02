@@ -1,35 +1,121 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-import sys
+import csv
+import numpy as np
+import statistics
+import json
+
+def get_movie_data(title):
+    baseurl = "http://www.omdbapi.com/?apikey=c77258a4&"
+    params = {}
+    params["r"] = "json"
+    params["t"] = title
+   
+    bapi_resp = requests.get(baseurl, params = params)
+    return json.loads(bapi_resp.text)
 
 
-#url for the specified page to be scraped
+def get_movie_scores(movie_title):
+    score_dic = get_movie_data(movie_title)
+    inner = score_dic['Ratings']
+    
+    score_list = []
 
-url = "https://en.wikipedia.org/wiki/Category:2000s_American_films?from=H"
-url2 = "https://en.wikipedia.org/wiki/List_of_films:_C"
+    for index in inner:
+        score_list.append(format_score(index['Value'][:-1]))
+        
+    return score_list
 
 
-#get the contents of the page
-html = requests.get(url)
-html2 = requests.get(url2)
+def format_score(movie_score):
+    score = movie_score.replace(".", "").replace("/", "").replace("%","")
+    score = score[:2]
+    return int(score)
 
-#parsing the html using a beautiful soup object
-soup = BeautifulSoup(html.content, features='html.parser')
-soup2 = BeautifulSoup(html2.content, features='html.parser')
+def get_average_score(movie):
+    scores = get_movie_scores(movie)
+    average = round(statistics.mean(scores), 0)
+    return average
 
-all_divs = soup2.find_all('div', {'class': 'mw-page-container'})
+def get_list_of_average_scores(list_of_movies):
+    score_list = []
+    for movie in list_of_movies:
+        score_list.append(get_average_score(movie))
+    return score_list
 
-values = []
-movie_list = []
 
-for row in all_divs: 
-    values = row.find_all('i')
+def get_list_of_movies(letter):
+    value_lst = []
+    movie_lst = []
 
-    #loop through all the values and extract movie title
-    for value in values:
-        movie_list.append(value.getText())
+    letter_url = "https://en.wikipedia.org/wiki/List_of_films:_{letter}".format(letter = letter.upper())
+    #print("Getting list of movies from: {}".format(letter_url))
+    letter_html = requests.get(letter_url)
 
-print(movie_list[-1])
+    alphabet_soup = BeautifulSoup(letter_html.content, features = 'html.parser')
 
-#print(all_divs)
+    all_movies = alphabet_soup.find_all('div', {'class': 'mw-page-container'})
+
+    for div in all_movies:
+        value_lst = div.find_all('i')
+
+        for value in value_lst:
+            movie_lst.append(value.getText())
+
+
+    return movie_lst
+
+def get_list_of_all_movies():
+    
+    movie_indexes = ["numbers", "A", "B", "C", "D","E", "F", "G", "H", "I", "J-K", "L", "M", "N-O", "P", "Q-R", "S", "T", "U-W", "X-Z"]
+
+    index_lst = []
+
+    for index in movie_indexes:
+        index_lst.append(get_list_of_movies(index))
+
+
+    print("Scraping Complete")
+    return index_lst
+
+#save dataframe as a csv file
+
+#all_movies = get_list_of_all_movies()
+
+#print("\n")
+#print("Complete")
+#print("\n")
+
+#with open("out.csv", "w", newline="", encoding='utf-8') as f:
+   # writer = csv.writer(f)
+   # writer.writerows(all_movies)
+
+
+#test = get_list_of_movies("j")[:20]
+#print(test)
+
+
+#score = []
+
+
+#print(get_movie_data(test[18]))
+
+#['Country'] = 'United States'
+
+#big_list = get_list_of_all_movies()
+
+#movie_data_list = []
+#a = get_list_of_movies("A")[:20]
+
+
+a =get_list_of_movies("A")
+
+movies = []
+for i in a:
+    movies[0][0] = a[i]
+    movies[0][1] = i
+
+
+print(a)
+

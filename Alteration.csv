@@ -1,0 +1,24 @@
+Magelight,Ball of light that lasts 60 seconds and sticks where it strikes.,84,,
+Stoneflesh,Improves the caster's armor rating by 60 points for 60 seconds.,194,,
+Ash Shell DR,Targets that fail to resist are immobilized in hardened ash for 30 seconds.,149 per second,,
+Detect Life,"Nearby living creatures, (but not undead, machines, or daedra) can be seen through walls.",100 per second,,
+Ironflesh,Improves the caster's armor rating by 80 points for 60 seconds.,266,,
+Telekinesis,Can pull an object to you from distance. Add it to your inventory or throw it.,170 per second,,
+Transmute,"Transmute one piece of unrefined Iron Ore to Silver, or Silver Ore to Gold, if the caster is carrying any.",100,,
+Waterbreathing,Can breathe under water for 60 seconds.,222,,
+Ash Rune DR,"Cast on a nearby surface, it explodes when enemies are nearby, immobilizing them in hardened ash for 30 seconds.",248,,
+Detect Dead,Nearby dead can be seen through walls.,148 per second,,
+Ebonyflesh,Improves the caster's armor rating by 100 points for 60 seconds.,341,,
+Paralyze,Targets that fail to resist are paralyzed for 10 seconds.,450,,
+Dragonhide,Caster ignores 80% of all physical damage for 30 seconds.,837,,
+Mass Paralysis,All targets in the area that fail to resist are paralyzed for 15 seconds.,937,,
+,Cast Novice level Alteration spells for half magicka,,Novice Alteration,
+,Dual casting an Alteration spell overcharges the effects into an even more powerful version,,Alteration Dual Casting,"Alteration 20, Novice Alteration"
+,Cast Apprentice level Alteration spells for half magicka,,Apprentice Alteration,"Alteration 25, Novice Alteration"
+,Protection spells like Stoneflesh are twice as strong if not wearing armor (+0.5 per additional rank),,Mage Armor (3),"Alteration 30/50/70, Apprentice Alteration"
+,"Blocks 10%/20%/30% of a spells effect. Magic resistance does not stop friendly spells from affecting the caster. See also: Breton, Agent of Mara and The Lord Stone for a method of achieving 85% resistance without requiring any gear.",,Magic Resistance (3),"Alteration 30/50/70, Apprentice Alteration"
+,Cast Adept level Alteration spells for half magicka,,Adept Alteration,"Alteration 50, Apprentice Alteration"
+,Alteration spells have greater duration (+50%),,Stability,"Alteration 70, Adept Alteration"
+,Cast Expert level Alteration spells for half magicka,,Expert Alteration,"Alteration 75, Adept Alteration"
+,Grants 30% Spell Absorption Spell absorption will block friendly spells as well as hostile ones.,,Atronach,"Alteration 100, Expert Alteration"
+,Cast Master level Alteration spells for half magicka,,Master Alteration,"Alteration 100, Expert Alteration"

@@ -1,0 +1,27 @@
+Calm,Creatures and people up to level 9 won't fight for 30 seconds.,146.0,,,
+Fear,Creatures and people up to level 9 flee from combat for 30 seconds.,153.0,,,
+Muffle,Move more quietly for 180 seconds.,144.0,,,
+Vampire's Seduction,Calms creatures and people up to level 10 for 30 seconds.,146.0,,,
+Frenzy,Creatures and people up to level 14 will attack anyone nearby for 60 seconds.,209.0,,,
+Frenzy Rune DR,Creatures and people up to level 20 will attack anyone nearby for 30 seconds.,165.0,,,
+Rally,Targets won't flee for 60 seconds and get extra health and stamina.,113.0,,,
+Invisibility,Caster is invisible for 30 seconds. Activating an object or attacking will break the spell.,334.0,,,
+Pacify,Creatures and people up to level 20 won't fight for 60 seconds.,290.0,,,
+Rout,Creatures and people up to level 20 flee from combat for 30 seconds.,316.0,,,
+Call to Arms,"Targets have improved combat skills, health, and stamina for 10 minutes.",655.0,,,
+Harmony,Creatures and people up to level 25 nearby won't fight for 60 seconds.,1052.0,,,
+Hysteria,Creatures and people up to level 25 flee from combat for 60 seconds.,866.0,,,
+Mayhem,Creatures and people up to level 25 will attack anyone nearby for 60 seconds.,990.0,,,
+,Cast Novice level Illusion spells for half magicka.,,Novice Illusion,,000F2CA9
+,Dual casting an Illusion spell overcharges the effects into an even more powerful version.,,Illusion Dual Casting,"Illusion 20, Novice Illusion",000153D0
+,Illusion spells now work on higher level animals (+8 levels).,,Animage,"Illusion 20, Novice Illusion",000581E1
+,Cast Apprentice level Illusion spells for half magicka.,,Apprentice Illusion,"Illusion 25, Novice Illusion",000C44C3
+,Calm spells now work on higher level opponents (+8 levels).,,Hypnotic Gaze,"Illusion 30, Novice Illusion",00059B77
+,All Illusion spells work on higher level people (+10 levels).,,Kindred Mage,"Illusion 40, Animage",000581E2
+,Cast Adept level Illusion spells for half magicka.,,Adept Illusion,"Illusion 50, Apprentice Illusion",000C44C4
+,Fear spells work on higher level opponents (+10 levels).,,Aspect of Terror,"Illusion 50, Hypnotic Gaze",00059B78
+,All spells cast from any school of magic are silent to others.,,Quiet Casting,"Illusion 50, Kindred Mage",000581FD
+,Frenzy spells work on higher level opponents (+12 levels).,,Rage,"Illusion 70, Aspect of Terror",000C44B5
+,Cast Expert level Illusion spells for half magicka.,,Expert Illusion,"Illusion 75, Adept Illusion",000C44C5
+,"Illusion spells work on undead, daedra and automatons.",,Master of the Mind,"Illusion 90, Rage, Quiet Casting",00059B76
+,Cast Master level Illusion spells for half magicka.,,Master Illusion,"Illusion 100, Expert Illusion",000C44C6

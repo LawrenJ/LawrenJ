@@ -1,0 +1,38 @@
+Firebolt,A bolt of fire that inflicts 25 points of fire damage. Targets on fire take extra damage.,41,,
+Freeze DR,A spike of ice that does 20 points of frost damage to Health and Stamina and slows the target for 15 seconds.,30,,
+Ice Spike,A spike of ice that inflicts 25 points of ice damage to Health and Stamina.,48,,
+Ignite DR,"A blast of flame that sets targets of fire, doing 4 damage per second for 15 seconds.",30,,
+Lightning Bolt,A bolt of lightning that inflicts 25 points of shock damage to Health and half as much to Magicka.,51,,
+Fire Rune,"Cast on a nearby surface, it explodes for 50 points of damage when enemies come near. Affected targets take extra damage.",234,,
+Frost Rune,"Cast on a nearby surface, it explodes for 50 points of damage to Health and Stamina when enemies come near. Movement speed is reduced for affected targets.",293,,
+Lightning Rune,"Cast on a nearby surface, it explodes for 50 points of damage to Health and half as much to Magicka when enemies come near.",323,,
+Chain Lightning,"A lighting bolt inflicting 40 points of damage to Health and half as much to Magicka, then leaps to a new target. If the character has learned Augmented Shock 2/2, the lightning jumps on one additional target and does 60 damage. Caution! Friendly-fire is possible.",156,,
+Fireball,"A fireball which explodes on impact for 40 points of damage in a 15-foot radius. Targets on fire take extra damage. If the character has learned Augmented Flames 2/2, the radius of the fire explosion is increased by 5 and damage increases to 60 points. Does harm Followers, but not Dragonborn.",133,,
+Ice Storm,"A freezing whirlwind that does 40 points of damage per second to Health and Stamina. The whirlwind radius is increased if the character has Augmented Frost 2/2. Spell range is smaller if cast with Destruction Dual Casting. Does harm Followers, but not Dragonborn.",144,,
+Flame Cloak,"For 60 seconds, opponents in melee range take 8 points of damage per second. Targets on fire take extra damage. Does not harm Followers. Does harm neutral NPCs like town guards.",289,,
+Frost Cloak,"For 60 seconds, opponents in melee range take 8 points of damage per second to Health and Stamina. Does not harm Followers. Does harm neutral NPCs like town guards.",316,,
+Lightning Cloak,"For 60 seconds, nearby opponents take 8 points of damage per second to Health and half as much to Magicka. Does not harm Followers. Does harm neutral NPCs like town guards.",370,,
+Whirlwind Cloak DR,"For 60 seconds, opponents in melee range have a chance of being flung away.",338,,
+Icy Spear,A spear of ice that does 60 (90) points of frost damage to Health and Stamina.,320,,
+Incinerate,A blast of fire that does 60 (90) points of fire damage. Targets on fire take extra damage.,298,,
+Thunderbolt,A thunderbolt that does 60 (90) points of shock damage to Health and half that to Magicka.,343,,
+Wall of Flames,"Sprayed on the ground, it creates a wall of fire that does 50 points of fire damage per second. Does not harm Followers or Dragonborn.",118 per second,,
+Wall of Frost,"Sprayed on the ground, it creates a wall of frost that does 50 points of frost damage per second. Does not harm Followers or Dragonborn.",137 per second,,
+Wall of Storms,Sprayed on the ground it creates a wall of lightning that does 50 points of shock damage per second. Does not harm Followers or Dragonborn.,145 per second,,
+Blizzard,"Creates a blizzard that surrounds the caster. Targets take 20 point of frost damage every second for 10 seconds, plus stamina damage.",656,,
+Fire Storm,"A 100-point fiery explosion centered on the caster. The closer a target is, the more damage they take.",846,,
+Lightning Storm,"Fires a continuous stream of lightning. Target takes 75 points of shock damage per second to Health, and half that to Magicka.",138 per second,,
+,Cast Novice level Destruction spells for half magicka,,Novice Destruction,
+,Dual casting a Destruction spell overcharges the effects into an even more powerful version,,Destruction Dual Casting,"Destruction 20, Novice Destruction"
+,Cast Apprentice level Destruction spells for half magicka,,Apprentice Destruction,"Destruction 25, Novice Destruction"
+,"Fire spells do 25% more damage (50% for second rank) (Affects all fire weapon enchantments, not just self-enchanted ones.)",,Augmented Flames (2),"Destruction 30/60, Novice Destruction"
+,"Frost spells do 25% more damage (50% for second rank) (Affects all frost weapon enchantments, not just self-enchanted ones.)",,Augmented Frost (2),"Destruction 30/60, Novice Destruction"
+,"Shock spells do 25% more damage (50% for second rank) (Affects all shock weapon enchantments, not just self-enchanted ones.)",,Augmented Shock (2),"Destruction 30/60, Novice Destruction"
+,Most destruction spells will stagger an opponent when dual cast,,Impact,"Destruction 40, Destruction Dual Casting"
+,Can place runes five times farther away,,Rune Master,"Destruction 40, Apprentice Destruction"
+,Cast Adept level Destruction spells for half magicka,,Adept Destruction,"Destruction 50, Apprentice Destruction"
+,Fire damage causes targets to flee if their health is low,,Intense Flames,"Destruction 50, Augmented Flames"
+,Frost damage paralyzes targets if their health is low,,Deep Freeze,"Destruction 60, Augmented Frost"
+,Shock damage disintegrates targets if their health is low,,Disintegrate,"Destruction 70, Augmented Shock"
+,Cast Expert level Destruction spells for half magicka,,Expert Destruction,"Destruction 75, Adept Destruction"
+,Cast Master level Destruction spells for half magicka,,Master Destruction,"Destruction 100, Expert Destruction"
