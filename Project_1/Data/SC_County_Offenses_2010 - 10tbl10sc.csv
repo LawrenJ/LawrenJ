@@ -1,0 +1,54 @@
+Metropolitan/Nonmetropolitan ,County,"Violent 
+crime","Murder and 
+nonnegligent 
+manslaughter","Forcible 
+rape",Robbery,"Aggravated 
+assault","Property 
+crime",Burglary,"Larceny-
+theft","Motor 
+vehicle 
+theft",Arson
+Metropolitan County,Aiken,380,4,42,64,270,"3,543","1,426","1,813",304,3
+Metropolitan County,Anderson,795,4,47,101,643,"6,278","1,829","3,928",521,27
+Metropolitan County,Berkeley,534,3,36,88,407,"3,424",976,"2,081",367,19
+Metropolitan County,Calhoun,50,1,1,5,43,338,109,183,46,10
+Metropolitan County,Charleston,577,9,18,98,452,"2,374",776,"1,364",234,8
+Metropolitan County,Darlington,371,8,19,54,290,"1,866",658,"1,078",130,11
+Metropolitan County,Dorchester,370,1,9,74,286,"2,536",833,"1,481",222,8
+Metropolitan County,Edgefield,30,2,3,4,21,435,144,251,40,2
+Metropolitan County,Fairfield,155,0,2,10,143,661,173,419,69,2
+Metropolitan County,Florence,342,9,24,70,239,"2,784",800,"1,806",178,7
+Metropolitan County,Greenville,"1,748",17,111,323,"1,297","10,103","2,797","6,521",785,43
+Metropolitan County,Horry,2,0,1,0,1,54,1,53,0,0
+Metropolitan County,Horry County Police Department,943,14,52,149,728,"7,375","1,876","4,688",811,30
+Metropolitan County,Laurens,238,1,16,20,201,"1,336",499,683,154,12
+Metropolitan County,Lexington,505,6,52,96,351,"3,902",981,"2,574",347,10
+Metropolitan County,Pickens,267,4,26,12,225,"1,968",600,"1,201",167,6
+Metropolitan County,Richland,"2,390",12,94,311,"1,973","9,681","2,784","5,913",984,42
+Metropolitan County,Saluda,47,0,9,0,38,252,89,141,22,1
+Metropolitan County,Spartanburg,631,8,52,103,468,"5,955","1,646","3,859",450,36
+Metropolitan County,York,420,1,43,43,333,"2,772",723,"1,877",172,17
+Nonmetropolitan County,Abbeville,44,0,2,1,41,346,87,235,24,9
+Nonmetropolitan County,Allendale,16,0,0,0,16,106,38,61,7,0
+Nonmetropolitan County,Bamberg,51,0,5,3,43,294,104,168,22,6
+Nonmetropolitan County,Barnwell,103,0,4,6,93,382,115,246,21,3
+Nonmetropolitan County,Beaufort,713,4,17,96,596,"3,914","1,120","2,576",218,21
+Nonmetropolitan County,Chester,154,3,5,13,133,903,258,581,64,6
+Nonmetropolitan County,Chesterfield,140,3,9,6,122,842,222,564,56,6
+Nonmetropolitan County,Clarendon,125,1,10,9,105,912,268,575,69,2
+Nonmetropolitan County,Colleton,208,7,17,28,156,"1,332",421,728,183,16
+Nonmetropolitan County,Dillon,263,2,1,41,219,"1,154",488,602,64,10
+Nonmetropolitan County,Georgetown,208,2,9,19,178,"1,592",491,971,130,7
+Nonmetropolitan County,Greenwood,287,0,12,14,261,"1,642",394,"1,174",74,1
+Nonmetropolitan County,Hampton,92,0,1,7,84,345,133,195,17,3
+Nonmetropolitan County,Jasper,65,2,4,19,40,715,226,438,51,2
+Nonmetropolitan County,Lancaster,273,3,17,51,202,"2,064",639,"1,301",124,3
+Nonmetropolitan County,Lee,77,1,4,4,68,545,233,268,44,7
+Nonmetropolitan County,Marion,124,0,4,13,107,724,241,432,51,2
+Nonmetropolitan County,Marlboro,186,2,14,17,153,732,257,415,60,4
+Nonmetropolitan County,McCormick,19,0,1,3,15,119,37,65,17,1
+Nonmetropolitan County,Newberry,63,3,3,11,46,437,98,312,27,1
+Nonmetropolitan County,Oconee,269,0,25,10,234,"1,386",475,787,124,6
+Nonmetropolitan County,Orangeburg,392,15,15,101,261,"3,674","1,122","2,067",485,12
+Nonmetropolitan County,Union,104,1,0,7,96,532,170,348,14,3
+Nonmetropolitan County,Williamsburg,128,5,8,22,93,879,291,483,105,7

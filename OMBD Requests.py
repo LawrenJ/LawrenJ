@@ -11,6 +11,7 @@ def get_movie_data(title):
     bapi_resp = requests.get(baseurl, params = params)
     return json.loads(bapi_resp.text)
 
+
 def get_movie_scores(movie_title):
     score_dic = get_movie_data(movie_title)
     inner = score_dic['Ratings']
@@ -42,28 +43,17 @@ def get_list_of_average_scores(list_of_movies):
 avatar = get_movie_data("Avatar")
 #print(avatar)
 
+print(avatar['Plot'])
+
 #top five movies of actor(s) in movie(does not include initial movie)
 
-
-#Rating
-#Release Year
-#Actors
-#Language
-#Runtime
-#Genre
-#Director
-#Writer
-#Country
-#Awards
-
-
-print(avatar.keys())
+#print(avatar.keys())
 #print(avatar['Ratings'])
 #for dic in avatar['Ratings']:
     #print(dic['Source'] + " " + dic['Value'])
 
 #print(type(avatar['Ratings']))
 
-#print(get_average_score("Avatar"))
+#print(get_average_score("Spy Kids"))
 #test_list = ["Avatar", "Iron Man", "Black Panther"]
 #print(get_list_of_average_scores(test_list))
