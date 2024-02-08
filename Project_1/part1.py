@@ -6,17 +6,12 @@ import seaborn as sns
 import warnings
 warnings.filterwarnings('ignore')
 
-median_household = pd.read_csv(r"C:\Users\shado\OneDrive\Desktop\VS Code Code\LawrenJ\Project_1\Data\Median Household Income by County 2011-2021_3.csv")
-#print(median_household)
+housing_est = pd.read_csv("Data\Estimated Number of Housing Units 2010-2019 (1).csv",encoding = 'latin1' )
+
+for col in housing_est:
+    print(col)
 
 
-household = median_household.to_numpy
-print(household)
-
-
-table_10 = pd.read_excel(r"C:\Users\shado\OneDrive\Desktop\VS Code Code\LawrenJ\Project_1\Data\table_10_offenses_known_to_law_enforcement_south_carolina_by_metropolitan_and_nonmetropolitan_counties_2012.xls")
-offenses_2012 = table_10.to_numpy
-print(offenses_2012)
 
 #df.describe()
 #plt.sc
