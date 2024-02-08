@@ -1,12 +1,4 @@
-Metropolitan/Nonmetropolitan,County,"Violent
-crime","Murder and
-nonnegligent
-manslaughter",Rape1,Robbery,"Aggravated
-assault","Property
-crime",Burglary,"Larceny-
-theft","Motor
-vehicle
-theft",Arson
+Metropolitan/Nonmetropolitan,County,"Violent crime","Murder and nonnegligent manslaughter","Forcible rape",Robbery,"Aggravated assault","Property crime",Burglary,"Larceny-theft","Motor vehicle theft",Arson
 Metropolitan County,Anderson,738,8,53,100,577,"5,257","1,055","3,564",638,27
 Metropolitan County,Beaufort2,538,6,81,45,406,,,,166,10
 Metropolitan County,Berkeley2,433,8,57,68,300,,,,326,11

@@ -1,12 +1,4 @@
-Metropolitan/Nonmetropolitan,County,"Violent
-crime","Murder and
-nonnegligent
-manslaughter",Rape1,Robbery,"Aggravated
-assault","Property
-crime",Burglary,"Larceny-
-theft","Motor
-vehicle
-theft",Arson
+Metropolitan/Nonmetropolitan,County,"Violent crime","Murder and nonnegligent manslaughter","Forcible rape",Robbery,"Aggravated assault","Property crime",Burglary,"Larceny-theft","Motor vehicle theft",Arson
 Metropolitan County,Aiken,549,7,74,44,424,"2,639",700,"1,574",365,7
 Metropolitan County,Anderson,693,12,73,63,545,"4,585",882,"3,073",630,27
 Metropolitan County,Beaufort,577,6,52,73,446,"1,879",347,"1,384",148,9

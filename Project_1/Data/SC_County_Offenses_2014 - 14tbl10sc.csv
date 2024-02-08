@@ -1,16 +1,4 @@
-Metropolitan/Nonmetropolitan,County,"Violent
-crime","Murder and
-nonnegligent
-manslaughter","Rape
-(revised
-definition)1","Rape
-(legacy
-definition)2",Robbery,"Aggravated
-assault","Property
-crime",Burglary,"Larceny-
-theft","Motor
-vehicle
-theft",Arson
+Metropolitan/Nonmetropolitan,County,"Violent crime","Murder and nonnegligent manslaughter","Forcible rape",Robbery,"Aggravated assault","Property crime",Burglary,"Larceny-theft","Motor vehicle theft",Arson
 Metropolitan County,Anderson,735,8,50,,108,569,"6,895","1,926","4,230",739,26
 Metropolitan County,Beaufort,671,5,42,,81,543,"2,829",693,"1,988",148,8
 Metropolitan County,Calhoun,33,2,5,,4,22,277,99,155,23,1
